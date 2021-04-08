@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+
+            background-image: url(tom-barrett-M0AWNxnLaMw-unsplash.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+
+    <h3>*denotes mang</h3>
+    <br>
+    <form action="/action_page.php">
+        <label for="fname">Full name*:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="FirstName LastName">
+        <br>
+        <br>
+        <br>
+        <label for="email">Email address*:</label><br>
+        <input type="email" id="email" name="email" placeholder="Email_Address@info.com" ><br>
+        <br>
+        <label for="package">Select your package*:</label><br>
+        <select name="package" id="package">
+        <option value="country">India</option>
+        <option value="country">Syria</option>
+        <option value="country">Nederlands</option>
+
+        </select>
+                <br>
+                <br>
+
+        <label for="date">Arrival date*:</label>
+        <br>
+        <input type="date" name="date" id="date">
+        <br>
+        <br>
+        <label for="NUM">Number of persons*:</label><br>
+        <input type="number" id="NUM" name="Num" placeholder="2">
+        <br>
+        <br>
+        <label for="text">What would you want to avial?*</label><br>
+
+        <label for="vehicle1">Boarding</label>
+             <input type="checkbox" id="vehicle1" name="vehicle1" value="Boarding"><br>
+             <label for="vehicle2">Fooding</label>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Fooding"><br>
+            <label for="vehicle3">Sight</label>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Sight"><br><br>
+                
+
+                <label for="code"> Discount Coupon code:</label><br>
+                <input type="number" name="number" id="number" placeholder="033666"><br>
+                <label for="text">Terms and conditions*</label><br>
+                <input type="radio" name="agree" id="agree" value="I agree">
+                <label for="text"> I agree</label>
+                
+                <input type="radio" name="disagree" id="disagree" value="I disagree">
+                <label for="text"> I disagree</label><br>
+                <input type="submit" value="Complete reservation">
+
+  
+        
+        
+      </form> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
